@@ -1,0 +1,41 @@
+body{
+	background-color:#2c4251;
+}
+
+#about-me-wrap{
+	background-color:#BCF4F5;
+	padding:50px; 
+	width:60%; 
+	margin:100px auto;
+}
+
+h1{
+	font-family: 'Baloo Da', cursive;
+}
+#profile-wrap {
+	width: 40%;
+	margin-right: 10%;
+	float: left;
+}
+
+#bio-wrap {
+	width: 50%;
+	float: right;
+}
+.clear {
+	clear:both;	
+}
+@media only screen and (max-width:767px)_{
+	#profile-wrap{
+		width:100%!important;
+		flaot:!important;
+		margin-right:0!important;
+	}
+}
+
+#bio-wrap {
+	width:100%!important;
+	float:none!important;
+	margin-top:50px!important;
+ }
+}
